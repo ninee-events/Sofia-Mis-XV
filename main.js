@@ -226,6 +226,6 @@ function enviarPorWsp() {
     \n*Nombre completo:* ${nombre}.\n*Restricciones alimentarias:* ${restricciones.join(', ')}.${mensajeExtra ? '\n*Mensaje:* ' + mensajeExtra : ''}`;
   }
 
-  const url = `https://api.whatsapp.com/send?phone=5491131735835&text=${encodeURIComponent(textoFinal)}`;
+  const url = `https://api.whatsapp.com/send?phone=5491165321904&text=${encodeURIComponent(textoFinal)}`;
   document.getElementById('btnEnviarWsp').href = url;
 }
