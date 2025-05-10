@@ -223,7 +223,7 @@ function enviarPorWsp() {
     }
 
     textoFinal = `Hola, confirmo mi asistencia para los XV de Sofia.
-    \n*Nombre completo:* ${nombre}.\n*Restricciones alimentarias:* ${restricciones.join(', ')}.${mensajeExtra ? '\n*Mensaje:* ' + mensajeExtra : ''}`;
+    \n*Nombre completo:* ${nombre}.\n*Alimentación:* ${restricciones.join(', ')}.${mensajeExtra ? '\n*Mensaje:* ' + mensajeExtra : ''}`;
   }
 
   const url = `https://api.whatsapp.com/send?phone=5491165321904&text=${encodeURIComponent(textoFinal)}`;
