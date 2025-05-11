@@ -72,7 +72,7 @@ $(document).ready(function(){
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1300,
+    autoplaySpeed: 1200,
     dots: true,
     arrows: false,
     responsive: [
