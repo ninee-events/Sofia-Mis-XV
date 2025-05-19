@@ -123,7 +123,7 @@ function enviarCancion() {
   const cancion = mensajeCancion.value.trim();
 
   const textoFinal = `Hola! Mi nombre es ${nombre1}.\nPara los XV de Sofía sugiero la canción: ${cancion}`;
-  const url = `https://api.whatsapp.com/send?phone=5491131735835&text=${encodeURIComponent(textoFinal)}`;
+  const url = `https://open.spotify.com/playlist/6BdvXDDQUBVfYgWLGu2KK7?si=56e115d8f0e44cfa&pt=5886f896a7f9d03ceda23f36b84bb01d${encodeURIComponent(textoFinal)}`;
 
   btnEnviarMusica.href = url;
 }
